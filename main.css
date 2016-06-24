@@ -1,0 +1,163 @@
+.nav a {
+  color: rebeccaPurple;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url("https://i.ytimg.com/vi/emxwlhFXvJU/maxresdefault.jpg");  /*Do not change the image*/
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: center;
+  background-color: white;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: indigo;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: rebeccaPurple;
+  text-indent: 2em;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align :left;
+}
+
+.learn-more a {
+  color: rebeccaPurple;
+}
+
+.learn-more a: hover {
+    text-decoration: none;
+    background-color: #CCDDDD;
+}
+
+.about {
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+}
+
+.about h2 {
+    color:#393c3d;
+    font-size:24px;
+}
+
+.about p {
+    margin-bottom:13px;
+    font-size:15px;
+}
+
+.footer {
+	font-size: 14px;
+	text-align: right;
+	padding: 5px;
+	border: 1px solid darkGrey;
+        height: 115px;
+        word-wrap: normal;
+}
+
+.footer > h3 {
+        font-family:"Trebuchet MS", serif;
+        float: right;
+        font-size:18px;
+        position: relative;
+}
+
+h3 {
+        font-family:"Trebuchet MS", serif;
+}
+
+h3 > span {
+    font-family:"Brush Script M7", cursive;
+}
+
+.disclaimer {
+    background-color: #DDDDDD;
+    height:105px;
+    font-size: 10px;
+    text-align: left;
+    float: left;
+    margin-top: -80px;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.disclaimer > h3 {
+    text-align: left;
+}
+#extension-list {
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.extensions {
+    padding: 10px;
+}
+
+#extension-list div:hover, #extension-list a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #FFFFFF;
+}
+#top-links a:hover {
+    text-decoration: none;
+    background-color: #CCDDDD;
+}
+
+#myCanvas {
+    margin-top: 300px;
+}
+.figcap {
+    text-align: center;
+    font-size: 20px;
+    color: rebeccaPurple;
+    background-color: #EEEEEE;
+}
+.thumbnail a:hover, .thumbnail:hover, .thumbnail > a {
+    text-decoration: none;
+    box-shadow: 10px 10px 8px #888888;
+}
+.resource-button {
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    background-color: #555555;
+    color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+.resource-button:hover {
+    background-color: #BBBBBB;
+    color: #000000;
+    cursor: pointer;
+    opacity: 100%;
+}
